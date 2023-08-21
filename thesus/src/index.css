@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.P404{
+  color: green;
+  height: 200px;
+  width: 100%;
+  font-size: xx-large;
+  text-align: center;
+  position:absolute;
+  top: 200px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:768px){
+  .P404{
+    color: green;
+    height: 200px;
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    position:absolute;
+    top: 100px;
+
+  }
+  body{
+    background-color:bisque;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1025px){
+  .P404{
+    color: green;
+    height: 200px;
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    position:absolute;
+    top: 100px;
+
+  }
+  body{
+    background-color:bisque;
+  }
+}
+
+@media screen and (min-width:375px) and (max-width:376px){
+  .P404{
+    color: red;
+    height: 200px;
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    position:absolute;
+    top: 10px;
+  }
+  body{
+    background-color:blanchedalmond;
+  }
+}
+
