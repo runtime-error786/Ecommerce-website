@@ -2,7 +2,7 @@ import React from "react";
 import { ReactDOM } from "react-dom";
 import {Routes,Route, BrowserRouter} from 'react-router-dom';
 import './index.css';
-
+import Menu from "./Menu";
 function ERR()
 {
   return(
@@ -19,6 +19,7 @@ function KI()
     return(
         <>
             <BrowserRouter>
+            <Menu></Menu>
             <Routes>
             <Route exact path='/home'></Route>
             <Route path='*' element={<ERR></ERR>}></Route>

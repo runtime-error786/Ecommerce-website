@@ -39,7 +39,7 @@ code {
   }
 }
 
-@media screen and (min-width:1024px) and (max-width:1025px){
+@media screen and (min-width:1024px){
   .P404{
     color: green;
     height: 200px;
