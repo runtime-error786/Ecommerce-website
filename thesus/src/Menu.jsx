@@ -6,7 +6,7 @@ function Menu()
 {
     return(
         <>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   <a class="navbar-brand me-5"><NavLink to="/home"><img src="./BB.jpg"  style={{width:'150px',height:'70px'}}></img></NavLink></a>
     <a class="navbar-brand me-5"><NavLink to="/home" style={{color:'black',textDecoration:'none',fontWeight:'bolder'}} >BestBuy</NavLink></a>
@@ -40,8 +40,13 @@ function Menu()
         
       </ul>
       <form class="d-flex" role="search">
-        <button class="btn btn-outline-success me-5"  style={{color:'black',textDecoration:'none',fontWeight:'bolder'}} >Sign in</button>
-        <button class="btn btn-outline-success me-5"  style={{color:'black',textDecoration:'none',fontWeight:'bolder'}}>Rate us</button>
+        <button class="btn btn-outline-success me-5"  >
+        <NavLink  style={{color:'black',textDecoration:'none',fontWeight:'bolder'}} to="/signin">
+        Sign in
+        </NavLink></button>
+        <button class="btn btn-outline-success me-5" > <NavLink  style={{color:'black',textDecoration:'none',fontWeight:'bolder'}} to="/rateus">
+        Rate us
+        </NavLink></button>
       </form>
     </div>
   </div>
