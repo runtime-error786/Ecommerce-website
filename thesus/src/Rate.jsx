@@ -92,7 +92,9 @@ function HI()
   <textarea class="form-control" aria-label="With textarea" style={{backgroundColor:"orange"}}></textarea>
 </div>
 <div class="col-11 text-center m-5">
-    <button class="btn btn-primary text" type="submit">Submit</button>
+    <button class="btn btn-primary text" type="submit" onClick={()=>{
+      alert('Are you sure you want to submit');
+    }}>Submit</button>
   </div>
   </form>
         </>

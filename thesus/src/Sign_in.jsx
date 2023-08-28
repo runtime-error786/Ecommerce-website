@@ -61,7 +61,10 @@ function GI()
     </div>
   </div>
   <div class="col-12 text-center">
-    <button class="btn btn-primary text" type="submit">Submit</button>
+    <button class="btn btn-primary text" type="submit" onClick={()=>{
+      alert("are you sure you want to submit");
+      
+    }}>Submit</button>
   </div>
 </form>
         </>

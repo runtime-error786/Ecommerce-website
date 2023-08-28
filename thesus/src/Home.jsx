@@ -363,6 +363,9 @@ knows about our customer says
 <button onClick={INC} id="i1"><i class="fa-solid fa-chevrons-right fa-shake fa-2xl"></i></button>
 <button onClick={DEC} id="i2"><i class="fa-solid fa-chevrons-left fa-shake fa-2xl"></i></button>
 </div>
+
+
+
         </>
     )
 }
