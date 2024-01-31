@@ -2,6 +2,7 @@ Description:
 In that ecommerce website user can add items to cart,user can sign in
 Setup:
 To set up a React project, you can follow these steps:
+git clone https://github.com/your-username/folder_name.git
 
 Node.js and npm: Make sure you have Node.js and npm installed on your system. You can download and install them from the Node.js official website.
 
